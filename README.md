@@ -8,3 +8,5 @@ With the language of your choice, the repository is aimed at being used in the f
 2. Implement the failing step definitions corresponding to the specification
 3. Implement the failing unit tests supporting the implementation of the specified features
 4. Implement the features
+
+![Koan definition](Koan_definition.png)
