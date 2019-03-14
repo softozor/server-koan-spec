@@ -13,10 +13,10 @@ Feature: Register a User
     We keep it simple here without e-mail confirmation.
   
     Given an unregistered User
-    When he registers with a username and a password
-    Then he gets a success response
-    And his account gets activated
-    But he isn't logged in
+    When she registers with a username and a password
+    Then she gets a success response
+    And her account gets activated
+    But she isn't logged in
   
   Scenario: A registered User signs up
   
@@ -25,9 +25,9 @@ Feature: Register a User
     application's user accounts.
   
     Given a registered User
-    When he registers with his username and a password
-    Then he gets a success response
-    But his account remains unchanged
+    When she registers with her username and password
+    Then she gets a success response
+    But her account remains unchanged
 
   
   

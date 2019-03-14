@@ -9,12 +9,12 @@ Feature: Log User in
   
   Scenario: The registered User provides valid credentials
   	When the User registers with valid username and password
-    Then his session opens for 1 week    
+    Then her session opens for 1 week    
   
   Scenario: The User is not registered
     When a User registers with invalid username and password
-    Then he gets a wrong credentials response
+    Then she gets a wrong credentials response
   
   Scenario: The registered User provides invalid password 
   	When a User registers with valid username and invalid password
-    Then he gets a wrong credententials response
+    Then she gets a wrong credententials response
