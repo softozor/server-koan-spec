@@ -8,13 +8,13 @@ Feature: Log User in
     Given the User is not logged in
   
   Scenario: The registered User provides valid credentials
-  	When the User registers with valid username and password
+  	When the User logs in with valid username and password
     Then her session opens for 1 week    
   
   Scenario: The User is not registered
-    When a User registers with invalid username and password
+    When a User logs in with invalid username and password
     Then she gets a wrong credentials response
   
   Scenario: The registered User provides invalid password 
-  	When a User registers with valid username and invalid password
+  	When a User logs in with valid username and invalid password
     Then she gets a wrong credententials response

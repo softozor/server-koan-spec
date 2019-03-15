@@ -27,4 +27,4 @@ Feature: Register a User
     Given a registered User
     When she registers with her username and password
     Then she gets a success response
-    But her account remains unchanged
+    But her password remains unchanged
