@@ -17,4 +17,4 @@ Feature: Log User in
   
   Scenario: The registered User provides invalid password 
   	When a User logs in with valid username and invalid password
-    Then she gets a wrong credententials response
+    Then she gets a wrong credentials response
