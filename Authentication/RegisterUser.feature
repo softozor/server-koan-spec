@@ -8,10 +8,10 @@ Feature: Register a User
   without any e-mail checks or whatever. 
 
   Scenario: An unregistered User signs up
-  
+
     This is the happy path of successful registration. 
     We keep it simple here without e-mail confirmation.
-  
+
     Given an unregistered User
     When she registers with a username and a password
     Then she gets a success response
@@ -28,6 +28,3 @@ Feature: Register a User
     When she registers with her username and password
     Then she gets a success response
     But her account remains unchanged
-
-  
-  

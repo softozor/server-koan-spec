@@ -5,7 +5,7 @@ Feature: Log User in
   so that I can use it with my credentials.*  
   
   Background: The User is not logged in
-  	Given the User is not logged in
+    Given the User is not logged in
   
   Scenario: The registered User provides valid credentials
   	When the User registers with valid username and password
